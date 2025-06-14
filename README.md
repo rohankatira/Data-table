@@ -1,12 +1,86 @@
-# React + Vite
+## Live Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+You can view the deployed application here: [https://data-table-beta.vercel.app/](https://data-table-beta.vercel.app/)
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚡️ Lightning-fast development with Vite
+- ⚛️ Modern React with HMR (Hot Module Replacement)
+- 🧹 Pre-configured ESLint for code quality
+- 📦 Minimal dependencies for easy customization
+- 🌐 Deployed and accessible online
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/data-table.git
+cd data-table
+npm install
+# or
+yarn install
+```
+
+### Running Locally
+
+Start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view the app in your browser.
+
+### Building for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+## Project Structure
+
+```
+data-table/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Deployment
+
+This project is deployed using [Vercel](https://vercel.com/). Any changes pushed to the main branch will automatically trigger a redeployment.
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.
