@@ -1,4 +1,4 @@
-## Live Demo
+## Data Table
 
 You can view the deployed application here: [https://data-table-beta.vercel.app/](https://data-table-beta.vercel.app/)
 
