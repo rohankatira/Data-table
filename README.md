@@ -75,7 +75,7 @@ data-table/
 
 ## Deployment
 
-This project is deployed using [Vercel](https://vercel.com/). Any changes pushed to the main branch will automatically trigger a redeployment.
+This project is deployed using [Vercel](https://data-table-beta.vercel.app/). Any changes pushed to the main branch will automatically trigger a redeployment.
 
 ## Contributing
 
